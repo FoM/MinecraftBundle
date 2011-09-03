@@ -1,5 +1,7 @@
 parameters:
+    minecraft.app_path: /home/minecraft/whitelist.lst
 #    minecraft.example.class: FoM\MinecraftBundle\Example
+
 
 services:
 #    minecraft.example:

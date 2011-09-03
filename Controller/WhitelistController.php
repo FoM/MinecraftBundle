@@ -5,7 +5,7 @@ namespace FoM\MinecraftBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 
-class DefaultController extends Controller
+class WhitelistController extends Controller
 {
     
     public function indexAction()
@@ -15,5 +15,17 @@ class DefaultController extends Controller
         // TODO
 
         return $this->render('MinecraftBundle:Whitelist:index.html.twig', array('players' => $players));
+    }
+
+    /**
+     * Adds a player name to the whitelist
+     * @param $playerName
+     * @return \Symfony\Bundle\FrameworkBundle\Controller\Response
+     */
+    public function addAction($playerName)
+    {
+        // TODO : add the player to the end of the file
+
+        return $this->render('MinecraftBundle:Whitelist:add.html.twig', array('playerName' => $playerName));
     }
 }
