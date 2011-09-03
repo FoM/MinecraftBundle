@@ -10,6 +10,10 @@ class DefaultController extends Controller
     
     public function indexAction()
     {
-        return $this->render('MinecraftBundle:Whitelist:index.html.twig', array('name' => ''));
+        // Fetching the player names from the whitelist file
+        $players = array();
+        // TODO
+
+        return $this->render('MinecraftBundle:Whitelist:index.html.twig', array('players' => $players));
     }
 }
