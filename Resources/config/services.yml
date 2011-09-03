@@ -1,0 +1,7 @@
+parameters:
+#    minecraft.example.class: FoM\MinecraftBundle\Example
+
+services:
+#    minecraft.example:
+#        class: %minecraft.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
