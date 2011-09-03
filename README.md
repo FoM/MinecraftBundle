@@ -1,8 +1,9 @@
 app/config/config.yml
 ---------------------
 
-``` yml
-- { resource: @MinecraftBundle/Resources/config/services.yml }
+``` yaml
+imports:
+    - { resource: @MinecraftBundle/Resources/config/services.yml }
 ```
 
 app/config/routing.yml
@@ -18,5 +19,5 @@ app/AppKernel.php
 -----------------
 
 ``` php
-    new FoM\MinecraftBundle\MinecraftBundle(),
+new FoM\MinecraftBundle\MinecraftBundle(),
 ```
