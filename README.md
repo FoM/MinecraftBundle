@@ -8,10 +8,10 @@ app/config/config.yml
 app/config/routing.yml
 ----------------------
 
-``` yml
-    MinecraftBundle:
-        resource: "@MinecraftBundle/Resources/config/routing.yml"
-        prefix:   /
+``` yaml
+MinecraftBundle:
+    resource: "@MinecraftBundle/Resources/config/routing.yml"
+    prefix:   /
 ```
 
 app/AppKernel.php
