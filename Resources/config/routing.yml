@@ -1,3 +1,7 @@
 MinecraftBundle_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: MinecraftBundle:Default:index }
+
+MinecraftBUndle_whitelist_list:
+    pattern:  /whitelist/list
+    defaults: { _controller: MinecraftBundle:Whitelist:index }
