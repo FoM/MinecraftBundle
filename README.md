@@ -1,6 +1,7 @@
 BUNDLE INSTALLATION
 ===================
 
+
 app/config/config.yml
 ---------------------
 

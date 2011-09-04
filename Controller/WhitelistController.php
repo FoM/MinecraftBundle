@@ -7,7 +7,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class WhitelistController extends Controller
 {
-    
+    /**
+     * Lists all players in the whitelist
+     * @return \Symfony\Bundle\FrameworkBundle\Controller\Response
+     */
     public function indexAction()
     {
         // Fetching the player names from the whitelist file
