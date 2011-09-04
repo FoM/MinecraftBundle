@@ -7,7 +7,7 @@ app/config/config.yml
 
 ``` yaml
 imports:
-    - { resource: @MinecraftBundle/Resources/config/services.yml }
+    - { resource: "@MinecraftBundle/Resources/config/services.yml" }
 ```
 
 app/config/routing.yml
@@ -23,5 +23,9 @@ app/AppKernel.php
 -----------------
 
 ``` php
-new FoM\MinecraftBundle\MinecraftBundle(),
+$bundles = array(
+    // [...]
+    new FoM\MinecraftBundle\MinecraftBundle(),
+);
+
 ```
